@@ -14,3 +14,37 @@ html {
     margin: auto;
 }
 
+/* header */
+header {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: lightgray;
+}
+.link-scarpe, .link-scarpe ul li {
+    display: inline-block;
+}
+
+.link-scarpe {
+    vertical-align: middle;
+}
+
+.link-scarpe {
+    width: calc(100% - 184px);
+    text-align: right;
+}
+
+.link-scarpe ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    padding: 20px 15px;
+    font-size: 18px;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid transparent;
+}
+.link-scarpe ul li a:hover, .link-scarpe ul li a.active {
+    border-bottom-color: lightgreen;
+}
