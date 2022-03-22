@@ -10,7 +10,7 @@ html{
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+/* header */
 header{
     position:fixed;
     right:25px;
@@ -19,7 +19,7 @@ header{
 }
 
 header span{
-    background-color: #fff;
+    background-color: white;
     height: 35px;
     width: 35px;
     text-align: center;
@@ -35,6 +35,11 @@ header span a{
     color: #000;
     font-size: 20px;
 }
+.link-scarpe{
+    vertical-align: right;
+    display: inline-block;
+}
+/* main */
 
 .scarpa{
     height: 100vh;
