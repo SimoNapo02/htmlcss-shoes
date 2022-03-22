@@ -1,52 +1,71 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-html {
+html{
     scroll-behavior: smooth;
 }
 
-/* generale */
-.container {
-    max-width: 800px;
-    margin: auto;
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* header */
-.container {
-    position: fixed;
+header{
+    position:fixed;
+    right:25px;
+    top:25px;
     z-index: 10;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: red);
 }
-.link-scarpe, .link-scarpe ul li {
+
+header span{
+    background-color: #fff;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 100%;
     display: inline-block;
+    margin: auto 10px;
 }
 
-.link-scarpe {
-    vertical-align: middle;
-}
-
-.link-scarpe {
-    width: calc(100% - 184px);
-    text-align: right;
-}
-
-.link-scarpe ul li a {
-    display: inline-block;
+header span a{
     text-decoration: none;
-    color: inherit;
-    padding: 20px 15px;
-    font-size: 18px;
-    border-bottom: 3px solid transparent;
-    border-top: 3px solid transparent;
-}
-.link-scarpe ul li a:hover, .link-scarpe ul li a.active {
-    border-bottom-color: lightgreen;
+    font-weight: bold;
+    color: #000;
+    font-size: 20px;
 }
 
-/* main */
+.scarpa{
+    height: 100vh;
+    position: relative;
+}
+
+#scarpa-1{
+    background-color: red;
+}
+
+#scarpa-2{
+    background-color: green;
+}
+
+#scarpa-3{
+    background-color: yellow;
+}
+
+.box{
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+.yellow{
+    color:yellow;
+}
+
+.green{
+    color:green;
+}
