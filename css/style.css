@@ -15,13 +15,13 @@ html {
 }
 
 /* header */
-header {
+.container {
     position: fixed;
     z-index: 10;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: lightgray;
+    background-color: red);
 }
 .link-scarpe, .link-scarpe ul li {
     display: inline-block;
@@ -48,3 +48,5 @@ header {
 .link-scarpe ul li a:hover, .link-scarpe ul li a.active {
     border-bottom-color: lightgreen;
 }
+
+/* main */
